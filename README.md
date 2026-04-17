@@ -155,12 +155,6 @@ python scripts/03_topic_extraction/extract_factors.py
 - **数据处理**：Pandas、NumPy
 - **可视化**：Matplotlib、Seaborn
 
-## 📝 详细文档
-
-- [方法论详解](docs/methodology.md)
-- [提示词设计文档](docs/prompts.md)
-- [完整结果报告](docs/results_summary.md)
-
 ## 🤝 贡献指南
 
 欢迎提交 Issue 和 Pull Request！
