@@ -1,0 +1,21 @@
+# 密钥文件
+.env
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*.so
+
+# Jupyter Notebook 检查点
+.ipynb_checkpoints/
+
+# 数据文件（如果不想公开原始数据）
+data/raw/*.csv
+data/processed/*.csv
+
+# 输出结果（可自行决定是否忽略）
+outputs/
+
+# IDE 配置
+.vscode/
+.idea/
