@@ -5,9 +5,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.9+](https://img.shields.io/badge/python-3.9+-blue.svg)](https://www.python.org/downloads/)
 
+
 ## 📌 项目简介
 
 本项目基于 **14,088 条**南京地铁相关的微博数据，通过大模型驱动的文本分析，构建了一套符合地铁场景的**马斯洛需求层次映射**，并结合情感分析与主题聚类，系统性地定位乘客满意点与痛点，为地铁运营优化提供数据支撑。
+
 
 ### 🎯 核心目标
 
@@ -16,6 +18,7 @@
 | 基础层 | 乘客需求结构化分类 | 五层需求体系（基础→保障→舒适→尊重→共鸣） |
 | 中层 | 情感与需求的关联分析 | 正负面情感分布 + 高频主题识别 |
 | 终极层 | 问题诊断与优先级排序 | 可落地的运营优化建议 |
+
 
 ## ✨ 项目亮点
 
@@ -40,38 +43,6 @@
 
 > 💻 **全套源码已开源**，欢迎 Star ⭐ 和交流讨论！
 
-
-## 📁 项目结构
-
-```
-nanjing-metro-analysis/
-├── README.md                          # 项目主页
-├── LICENSE                            # 开源协议
-├── .gitignore                         # Git 忽略配置
-├── .env.example                       # 环境变量示例文件
-├── requirements.txt                   # Python 依赖
-├── data/
-│   ├── raw/                           # 原始微博数据
-│   └── processed/                     # 处理后的结果
-├── scripts/
-│   ├── 01_demand_classification/      # 需求层次分类
-│   │   ├── classify_demand.py         # DeepSeek 版本（基础版）
-│   │   ├── classify_demand_deepseek.py # DeepSeek 版本（带评价功能）
-│   │   └── classify_demand_openai.py   # OpenAI 版本（带评价功能）
-│   ├── 02_sentiment_analysis/         # 情感分析
-│   │   └── analyze_sentiment.py
-│   ├── 03_topic_extraction/           # 情感因素提取
-│   │   └── extract_factors.py
-│   ├── 04_clustering/                 # 聚类分析（待添加）
-│   ├── 05_semantic_alignment/         # 语义对齐（待添加）
-│   └── 06_network_analysis/           # 网络分析（待添加）
-├── notebooks/                         # Jupyter Notebook 分析文件
-│   ├── 01_optimal_threshold_clustering.ipynb
-│   └── 02_semantic_alignment.ipynb
-├── docs/                              # 详细文档
-├── figures/                           # 图表输出
-└── outputs/                           # 最终输出文件
-```
 
 ## 🚀 快速开始
 
